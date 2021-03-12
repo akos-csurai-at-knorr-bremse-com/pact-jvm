@@ -11,6 +11,15 @@ The library is available on maven central using:
 * artifact-id = `junit`
 * version-id = `4.1.0`
 
+## JUnit Configuration
+
+```gradle
+test {
+  useJUnit()
+}
+```
+Refer to [Gradle](https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html) documentation for more information about [useJUnit()](https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html#org.gradle.api.tasks.testing.Test:useJUnit())
+
 ## Usage
 
 ### Using the base ConsumerPactTest
