@@ -10,6 +10,15 @@ The library is available on maven central using:
 * group-id = `au.com.dius.pact.consumer`
 * artifact-id = `junit5`
 * version-id = `4.1.0`
+* 
+## JUnit5 Configuration
+
+```gradle
+test {
+   useJUnitPlatform()
+}
+```
+Refer to [Gradle](https://docs.gradle.org/current/dsl/org.gradle.api.tasks.testing.Test.html) documentation for more information about [useJUnitPlatform()](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/testing/Test.html#useJUnitPlatform--)
 
 ## Usage
 
