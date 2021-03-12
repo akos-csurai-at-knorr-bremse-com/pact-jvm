@@ -40,6 +40,21 @@ buildscript {
 apply plugin: 'au.com.dius.pact'
 ```
 
+### Configure Test Framework
+JUnit4
+```groovy
+test {
+   useJUnit()
+}
+```
+JUnit5
+```groovy
+test {
+   useJUnitPlatform()
+}
+```
+
+
 ### 2. Define the pacts between your consumers and providers
 
 ```groovy
